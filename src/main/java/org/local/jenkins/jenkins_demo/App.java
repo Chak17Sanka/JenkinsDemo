@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! Welcome to a Quick Jenkins Demo Project !!!!" );
+        System.out.println( "Hello World! Welcome to a Quick Jenkins Demo Project, This contains all the basic information required" );
     }
 }
