@@ -23,4 +23,24 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugins</artifactId>
+				<configuration>
+					<arhive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>org.local.jenkins.jenkins_demo.App.java</mainClass>
+						</manifest>
+					</arhive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+  
+  
+  
 </project>
