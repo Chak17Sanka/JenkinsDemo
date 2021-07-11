@@ -34,8 +34,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>com.mkyong.core.App</mainClass>
-							<classpathPrefix>dependency-jars/</classpathPrefix>
+							<mainClass>org.local.jenkins.jenkins-demo.App.java</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
