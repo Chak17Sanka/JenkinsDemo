@@ -34,7 +34,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>org.local.jenkins.jenkins_demo.App.java</mainClass>
+							<mainClass>org.local.jenkins.jenkins_demo.App</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
